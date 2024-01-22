@@ -46,7 +46,7 @@ sudo fwupdmgr update
 * `sudo dnf install akmod-nvidia`
 * Install this if you use applications that can utilise CUDA i.e. Davinci Resolve, Blender etc.
 * `sudo dnf install xorg-x11-drv-nvidia-cuda`
-* Wait for atleast 5 mins before rebooting, to let the kermel module get built.
+* Wait for atleast 5 mins before rebooting, to let the kernel module get built.
 * `modinfo -F version nvidia` #Check if the kernel module is built.
 * Reboot
 
